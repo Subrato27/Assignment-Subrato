@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Subrato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-area">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>D. Design</h1>
+                    </a>
+                </div>
+                <div class="menu-icon" onclick="menufunction()">
+                    <div class="icon">
+                            <img src="img/menu-icon.png" alt="">
+                    </div>
+                     
+                        
+                </div>
+                
+                    <nav class="main-menu" id="main-menu">
+                        <a href="#hero-area" id="home">home</a>
+                        <a href="#about-area">about</a>
+                        <a href="#services-area">services</a>
+                        <a href="#contact-area">contact</a>
+                        <img src="img/search icon.png" alt="" class="search-bar">
+                    </nav>
+                        
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="hero-area" id="hero-area">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>we design</h2>
+                        <h2>digital products</h2>
+                        <p>We are a digital agency that focuses on solving your problems by making a product that will exceed your expectations so far.</p>
+                        <a href="#" class="theme-button">get started</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="img/man-min2.png" alt="jone">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-area" id="about-area">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="img/about.png" alt="">
+                    </div>
+                    <div class="about-text">
+                        <h4>about me</h4>
+                        <h3>Creative agency that help you go ahead.</h3>
+                        <p>Darkness they’re, moved whales great or void great man one man from blessed so our. Dominion good face was sixth male kind offer together beginning saw fifth midst they’re spirit which gathered. Appear saying blessed working experience</p>
+                        <a href="#" class="theme-button">get started</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="services-area" id="services-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h4>what we do</h4>
+                    <h3>Services we can</h3>
+                    <h3>help you.</h3>
+                </div>
+                <div class="services-content">
+                    <div class="single-services">
+                        <img src="img/icons1.png" alt="">
+                        <h4>Digital Marketing</h4>
+                        <p>Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
+                        <a href="#" class="theme-button-small">Read More</a>
+                    </div>
+                    <div class="single-services">
+                        <img src="img/icons2.png" alt="">
+                        <h4>Video Production</h4>
+                        <p>Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
+                        <a href="#" class="theme-button-small">Read More</a>
+                    </div>
+                    <div class="single-services">
+                        <img src="img/icons3.png" alt="">
+                        <h4>Branding Design</h4>
+                        <p>Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
+                        <a href="#" class="theme-button-small">Read More</a>
+                    </div>
+                    <div class="single-services">
+                        <img src="img/icons4.png" alt="">
+                        <h4>UX Design</h4>
+                        <p>Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
+                        <a href="#" class="theme-button-small">Read More</a>
+                    </div>
+                    <div class="single-services">
+                        <img src="img/icons5.png" alt="">
+                        <h4>Web Development</h4>
+                        <p>Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
+                        <a href="#" class="theme-button-small">Read More</a>
+                    </div>
+                    <div class="single-services">
+                        <img src="img/icons6.png" alt="">
+                        <h4>eCommerce</h4>
+                        <p>Ullamcorper malesuada proin libero nunc. Quis ipsum suspen.</p>
+                        <a href="#" class="theme-button-small">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="contact-area" id="contact-area">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-image">
+                        <img src="img/model-min.png" alt="">
+                    </div>
+                    <div class="contact-text">
+                        <div class="section-heading" id="section-text">
+                            <h4>LETS TALK</h4>
+                            <h3>Have any project?</h3>
+                        </div>
+                        <div class="form-content">
+                            <form action="">
+                                <input type="text" placeholder="Name" id="name">
+                                <input type="text" placeholder="E-Mail" id="email">
+                                <input type="text" placeholder="Phone Number" id="phone-number">
+                                <input type="text" placeholder="Your Website" id="your-website">
+                                <textarea id="message" rows="5" placeholder="Your Message Here"></textarea>
+                                <input type="submit" placeholder="Submit Now" id="submit-now">
+                            </form>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-area">
+            <div class="container">
+                <p>&copy: 2022 D. Design. Designed by Subrato</p>
+            </div>
+            
+        </section>
+    </footer>
+    <script>
+        function menufunction() {
+            var menu = document.getElementById("main-menu");
+            menu.classList.toggle("show-menu");
+        }
+    </script>
+</body>
+</html>
